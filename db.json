@@ -1,0 +1,176 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "Name": "ofeknave",
+      "email": "ofeknave99@gmail.com",
+      "password": "ofek123456",
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "name": "Israel Israeli",
+      "email": "israel@gmail.com",
+      "password": "12345678",
+      "isAdmin": false
+    },
+    {
+      "name": "yarin",
+      "email": "yarin508020@gmail.com",
+      "password": "yarin123456",
+      "isAdmin": false,
+      "id": 3
+    },
+    {
+      "name": "noam",
+      "email": "noam@gmail.com",
+      "password": "noam121245",
+      "isAdmin": false,
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Microsoft Earphones",
+      "price": 80,
+      "category": "Headphones",
+      "description": "The Microsoft new earphones with high quality",
+      "image": "/imags/Microsoft_Earphones.png",
+      "quantity": 5
+    },
+    {
+      "name": "אוזניות",
+      "price": 1000,
+      "category": "אוזניות",
+      "description": "אוזניות",
+      "image": "https://th.bing.com/th/id/R.1271b241fac7a1b01225cd0410c434ad?rik=ihMJXATVGp5B2Q&pid=ImgRaw&r=0",
+      "id": 3
+    }
+  ],
+  "carts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "active": true,
+      "products": [
+        {
+          "id": 2,
+          "name": "Microsoft Headphones",
+          "price": 200,
+          "category": "Headphones",
+          "description": "The Microsoft new headphones with high quality",
+          "image": "/images/Microsoft_Headphones.png",
+          "quantity": 2
+        },
+        {
+          "id": 2,
+          "name": "Microsoft Headphones",
+          "price": 200,
+          "category": "Headphones",
+          "description": "The Microsoft new headphones with high quality",
+          "image": "/imags/Microsoft_Headphones.png",
+          "quantity": 1
+        },
+        {
+          "id": 1,
+          "name": "Microsoft Earphones",
+          "price": 80,
+          "category": "Headphones",
+          "description": "The Microsoft new earphones with high quality",
+          "image": "/imags/Microsoft_Earphones.png",
+          "quantity": 5
+        },
+        {
+          "name": "אוזניות",
+          "price": 1000,
+          "category": "אוזניות",
+          "description": "אוזניות",
+          "image": "https://th.bing.com/th/id/R.1271b241fac7a1b01225cd0410c434ad?rik=ihMJXATVGp5B2Q&pid=ImgRaw&r=0",
+          "id": 3
+        },
+        {
+          "name": "אוזניות",
+          "price": 1000,
+          "category": "אוזניות",
+          "description": "אוזניות",
+          "image": "https://th.bing.com/th/id/R.1271b241fac7a1b01225cd0410c434ad?rik=ihMJXATVGp5B2Q&pid=ImgRaw&r=0",
+          "id": 3
+        },
+        {
+          "name": "אוזניות",
+          "price": 1000,
+          "category": "אוזניות",
+          "description": "אוזניות",
+          "image": "https://th.bing.com/th/id/R.1271b241fac7a1b01225cd0410c434ad?rik=ihMJXATVGp5B2Q&pid=ImgRaw&r=0",
+          "id": 3
+        },
+        {
+          "name": "אוזניות",
+          "price": 1000,
+          "category": "אוזניות",
+          "description": "אוזניות",
+          "image": "https://th.bing.com/th/id/R.1271b241fac7a1b01225cd0410c434ad?rik=ihMJXATVGp5B2Q&pid=ImgRaw&r=0",
+          "id": 3
+        },
+        {
+          "name": "אזוניות",
+          "price": 1500,
+          "category": "אזוניות",
+          "description": "אוזניה",
+          "image": "https://th.bing.com/th/id/R.1271b241fac7a1b01225cd0410c434ad?rik=ihMJXATVGp5B2Q&pid=ImgRaw&r=0",
+          "id": 4
+        },
+        {
+          "name": "אזוניות",
+          "price": 1500,
+          "category": "אזוניות",
+          "description": "אוזניה",
+          "image": "https://th.bing.com/th/id/R.1271b241fac7a1b01225cd0410c434ad?rik=ihMJXATVGp5B2Q&pid=ImgRaw&r=0",
+          "id": 4
+        }
+      ]
+    },
+    {
+      "userId": 3,
+      "products": [
+        {
+          "id": 1,
+          "name": "Microsoft Earphones",
+          "price": 80,
+          "category": "Headphones",
+          "description": "The Microsoft new earphones with high quality",
+          "image": "/imags/Microsoft_Earphones.png",
+          "quantity": 5
+        },
+        {
+          "id": 1,
+          "name": "Microsoft Earphones",
+          "price": 80,
+          "category": "Headphones",
+          "description": "The Microsoft new earphones with high quality",
+          "image": "/imags/Microsoft_Earphones.png",
+          "quantity": 5
+        }
+      ],
+      "active": true,
+      "id": 4
+    },
+    {
+      "userId": 4,
+      "products": [
+        {
+          "id": 1,
+          "name": "Microsoft Earphones",
+          "price": 80,
+          "category": "Headphones",
+          "description": "The Microsoft new earphones with high quality",
+          "image": "/imags/Microsoft_Earphones.png",
+          "quantity": 5
+        }
+      ],
+      "active": true,
+      "id": 5
+    }
+  ]
+}
